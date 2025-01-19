@@ -1,0 +1,14 @@
+.campersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 888px;
+    width: 100%;
+    gap: 40px;
+}
+
+.campersList {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+}

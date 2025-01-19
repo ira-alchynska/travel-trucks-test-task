@@ -1,0 +1,37 @@
+.ratingLocation {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.rating, .location  {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.rating  {
+    cursor: pointer;
+}
+
+.ratingText {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 0.3s;
+}
+
+.ratingText:hover {
+    text-decoration-color: var(--main)
+}
+
+.starIcon {
+    font-size: 16px;
+    color: var(--rating);
+}
+
+.mapIcon {
+    font-size: 16px;
+}

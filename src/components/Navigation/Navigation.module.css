@@ -1,0 +1,58 @@
+.navBar {
+    width: 100%;
+    background-color: var(--badges);
+    color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 24px 64px;
+    height: 72px;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+.logoTravel {
+    color: var(--main);
+}
+
+.logoTrucks {
+    color: var(--text);
+}
+
+.navItems {
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+
+.navItem {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+    padding: 10px;
+
+    &:global.active {
+        color: var(--button);
+    }
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: inherit;
+    padding: 10px;
+
+    &:global.active {
+        color: var(--button);
+    }
+}

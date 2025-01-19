@@ -1,0 +1,23 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    min-height: 106px;
+}
+
+.feature {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--badges);
+    border-radius: 100px;
+    padding: 12px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    max-height: 48px;
+}
+
+.featureIcon {
+    font-size: 20px;
+}

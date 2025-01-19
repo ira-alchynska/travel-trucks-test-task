@@ -1,0 +1,150 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main: #101828;
+  --text: #475467;
+  --gray: #6C717B;
+  --button: #E44848;
+  --button-hover: #D84343;
+  --rating: #FFC531;
+  --gray-light: #DADDE1;
+  --badges: #F2F4F7;
+  --inputs: #F7F7F7;
+  --white: #FFFFFF;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--main);
+  margin: 0;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+/* Icons */
+
+@font-face {
+  font-family: 'TravelTrucksIcons';
+  src: url('./assets/fonts/icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'TravelTrucksIcons';
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  line-height: 1;
+}
+
+.icon-people:before {
+  content: '\e900';
+}
+
+.icon-fuel-pump:before {
+  content: '\e901';
+}
+
+.icon-radio:before {
+  content: '\e902';
+}
+
+.icon-map:before {
+  content: '\e903';
+}
+
+.icon-star:before {
+  content: '\e904';
+}
+
+.icon-tv:before {
+  content: '\e905';
+}
+
+.icon-cup-hot:before {
+  content: '\e906';
+}
+
+.icon-transmission:before {
+  content: '\e907';
+}
+
+.icon-ac:before {
+  content: '\e908';
+}
+
+.icon-droplet:before {
+  content: '\e909';
+}
+
+.icon-van:before {
+  content: '\e90a';
+}
+
+.icon-full:before {
+  content: '\e90b';
+}
+
+.icon-alcove:before {
+  content: '\e90c';
+}
+
+.icon-heart:before {
+  content: '\e90d';
+}

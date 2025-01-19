@@ -1,0 +1,80 @@
+.bookingFormContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 44px;
+    gap: 24px;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid var(--gray-light);
+}
+
+.formHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.formTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main);
+}
+
+.formSubtitle {
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text);
+}
+
+.bookingForm {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center
+}
+
+.inputField,
+.textareaField {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--inputs);
+    padding: 18px;
+    height: 60px;
+    appearance: none;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.textareaField {
+    outline: none;
+    resize: none;
+    height: 118px;
+    margin-bottom: 10px;
+}
+
+.submitButton {
+    text-decoration: none;
+    background-color: var(--button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    width: 166px;
+    height: 56px;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: var(--button-hover);
+}

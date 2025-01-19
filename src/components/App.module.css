@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.header {
+  margin: 20px;
+}
+
+.headerIcon {
+  vertical-align: text-bottom;
+  margin-right: 8px;
+  fill: rgb(255, 198, 28);
+}

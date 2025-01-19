@@ -1,0 +1,17 @@
+.loadMoreBtn {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    width: 166px;
+    height: 56px;
+    font-size: 16px;
+    border: 1px solid var(--gray-light);
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.loadMoreBtn:hover {
+  border-color: var(--button-hover);
+}

@@ -1,0 +1,112 @@
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1px solid var(--gray-light);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 24px;
+    width: 100%;
+    gap: 24px
+}
+
+.image {
+    width: 292px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.details {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cardHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.namePrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: var(--main);
+}
+
+.price {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inherit;
+}
+
+.heartIcon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.favorite {
+    color: var(--button-hover);
+}
+
+.heartIcon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.heartIcon.selected {
+    color: var(--button);
+}
+
+.favoriteBtn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.showMoreBtn {
+    text-decoration: none;
+    background-color: var(--button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    width: 166px;
+    height: 56px;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.showMoreBtn:hover {
+    background-color: var(--button-hover);
+}
